@@ -1,0 +1,43 @@
+# Vivado project files
+*.xpr
+*.jou
+*.log
+*.str
+*.pb
+
+# Vivado generated directories
+.Xil/
+vivado_*/
+*/vivado_*/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/synth_*/
+*.srcs/impl_*/
+
+# Bitstream and implementation outputs
+*.bit
+*.bin
+*.mcs
+*.ltx
+*.rpt
+*.dcp
+*.xsa
+
+# Simulation artifacts
+*.vcd
+*.wdb
+*.wcfg
+# Keep waveform configs under sim/ if manually added
+!sim/waveforms/*.wcfg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+*~
