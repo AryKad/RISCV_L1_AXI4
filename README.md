@@ -65,11 +65,11 @@ A fully custom RISC-V SoC implementation in Verilog, built from scratch as a por
 | Register File | ✅ Complete | ✅ |
 | IF Stage | ✅ Complete | ✅ |
 | ID Stage | ✅ Complete | ✅ |
-| EX Stage | 🔄 In Progress | ❌ |
-| MEM Stage | ⏳ Pending | ❌ |
-| WB Stage | ⏳ Pending | ❌ |
-| Hazard Unit | ⏳ Pending | ❌ |
-| I-Cache | ⏳ Pending | ❌ |
+| EX Stage |  | ✅ Complete |
+| MEM Stage | ✅ Complete | ✅ |
+| WB Stage | ✅ Complete | ✅ |
+| Hazard Unit | ✅ Complete | ✅ |
+| I-Cache | 🔄 In Progress | ❌ |
 | D-Cache | ⏳ Pending | ❌ |
 | AXI4 Master | ⏳ Pending | ❌ |
 | AXI4-Lite Master | ⏳ Pending | ❌ |
@@ -88,7 +88,7 @@ RISCV_L1_AXI4/
 │   ├── cache/          # L1 instruction and data caches
 │   ├── axi4/           # AXI4 and AXI4-Lite bus masters
 │   ├── uart/           # UART peripheral
-│   └── top.v           # Top-level integration
+│   └── riscv_core.v    # Top-level integration
 ├── tb/                 # Testbenches (per-module and top-level)
 ├── constraints/        # Vivado XDC constraints for Nexys A7 100T
 ├── sim/
