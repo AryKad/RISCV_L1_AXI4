@@ -65,7 +65,7 @@ A fully custom RISC-V SoC implementation in Verilog, built from scratch as a por
 | Register File | ✅ Complete | ✅ |
 | IF Stage | ✅ Complete | ✅ |
 | ID Stage | ✅ Complete | ✅ |
-| EX Stage |  | ✅ Complete |
+| EX Stage | ✅ Complete | ✅ |
 | MEM Stage | ✅ Complete | ✅ |
 | WB Stage | ✅ Complete | ✅ |
 | Hazard Unit | ✅ Complete | ✅ |
